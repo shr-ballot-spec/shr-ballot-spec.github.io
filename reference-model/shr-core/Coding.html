@@ -58,7 +58,9 @@ if (location.href.indexOf('is-external=true') == -1) {
       <dl>
         <dt>Documentation:</dt>
         <dd>
-          <div class="block">Coding of a concept, drawn from a controlled vocabulary. Includes the vocabulary and version, if applicable. May include a display text, and a descriptor expressing the intended interpretation of the code.</div>
+          <div class="block">Coding of a concept, drawn from a controlled vocabulary. Includes the vocabulary and version, if applicable. May include a display text, and a descriptor expressing the intended interpretation of the code.
+
+A corresponding type does not exist in CIMI V0.0.4. Complex data types that appear frequently in FHIR have not been profiled, even if CIMI defines them differently. This choice means that the breast cancer profiles use the native FHIR datatype, rather than having to substitute a CIMI profile everywhere the native type is used.</div>
         </dd>
       </dl>
       <dl>
@@ -81,16 +83,6 @@ if (location.href.indexOf('is-external=true') == -1) {
           <ul class="class_list">
                           <li>
                 <a href="../shr-core/CodeableConcept.html">CodeableConcept</a>,&nbsp;              </li>
-                          <li>
-                <a href="../shr-base/SecurityLabel.html">SecurityLabel</a>,&nbsp;              </li>
-                          <li>
-                <a href="../shr-action/Status.html">Status</a>,&nbsp;              </li>
-                          <li>
-                <a href="../shr-base/Tag.html">Tag</a>,&nbsp;              </li>
-                          <li>
-                <a href="../shr-core/TypeAsaCoding.html">TypeAsaCoding</a>,&nbsp;              </li>
-                          <li>
-                <a href="../shr-core/Units.html">Units</a>,&nbsp;              </li>
                           <li>
                 <a href="../shr-core/Units.html">Units</a>              </li>
                       </ul>

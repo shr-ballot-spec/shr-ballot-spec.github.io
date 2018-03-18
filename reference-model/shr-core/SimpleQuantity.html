@@ -58,7 +58,9 @@ if (location.href.indexOf('is-external=true') == -1) {
       <dl>
         <dt>Documentation:</dt>
         <dd>
-          <div class="block">A quantity where the comparator is not used, as defined in FHIR</div>
+          <div class="block">A quantity where the comparator is not used, as defined in FHIR.
+
+This class is not defined in CIMI V0.0.4 reference model. It could potentially be an archetype of Quantity. Complex data types that appear frequently in FHIR have not been profiled, even if CIMI defines them differently. This choice means that the breast cancer profiles use the native FHIR datatype, rather than having to substitute a CIMI profile everywhere the native type is used.</div>
         </dd>
       </dl>
       <dl>
@@ -80,22 +82,16 @@ if (location.href.indexOf('is-external=true') == -1) {
                 
       </dl>
       <dl>
-      
-      </dl>
-      <dl>
-              <dt>Used By:</dt>
+              <dt>Direct Descendants:</dt>
         <dd>
           <ul class="class_list">
                           <li>
-                <a href="../shr-procedure/AmountOrSize.html">AmountOrSize</a>,&nbsp;              </li>
-                          <li>
-                <a href="../shr-entity/Capacity.html">Capacity</a>,&nbsp;              </li>
-                          <li>
-                <a href="../shr-medication/DoseAmount.html">DoseAmount</a>,&nbsp;              </li>
-                          <li>
-                <a href="../shr-core/Origin.html">Origin</a>              </li>
+                <a href="../shr-core/Percentage.html">Percentage</a>              </li>
                       </ul>
         </dd>
+      
+      </dl>
+      <dl>
       
       </dl>
     </div>
@@ -136,7 +132,7 @@ if (location.href.indexOf('is-external=true') == -1) {
   </td>
   <td class="colLast">
                   <div class="block">decimal</div>
-                        <div class="block">1..1</div>
+                        <div class="block">0..1</div>
             </td>
 </tr>    
                               </table>                            <ul class="blockList">
